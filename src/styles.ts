@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const cores = {
-  branca: '#EEEEEE',
+  branca: '#ffffff',
   preto: '#111111',
   cinza: '#333333',
   fundo: '#FFF8F2',
@@ -25,5 +25,6 @@ export const GlobalCSS = createGlobalStyle`
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
+    align-items:center;
   }
 `
